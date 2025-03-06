@@ -1,16 +1,14 @@
 package com.example.EmployeePayroll.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class EmployeeDTO {
     private String name;
-    private String gender;
-    private String department;
     private double salary;
-    private String startDate;
+    private String department;
+    private String gender;       // Added gender
+    private String startDate;    // Added startDate
 }
